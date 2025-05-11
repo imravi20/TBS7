@@ -1,0 +1,19 @@
+﻿@using TrainInfoSystem.Models
+@model PNR
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (Model != null)
+{
+    <div class="alert alert-info">
+        <h4>PNR: @Model.PNRNumber</h4>
+        <p>Train: @Model.Booking.Train.TrainName</p>
+        <p>Coach: @Model.Coach</p>
+        <p>Berth No: @Model.BerthNumber</p>
+        <p>Status: @Model.Status</p>
+    </div>
+}
+else
+{
+    <div class="alert alert-warning">PNR Not Found</div>
+}

@@ -1,0 +1,491 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\views\\home\\pnrstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\views\\home\\pnrstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\views\\admin\\pendingbookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\views\\admin\\pendingbookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\views\\admin\\confirmedbookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\views\\admin\\confirmedbookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\views\\admin\\addtrain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\views\\admin\\addtrain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\views\\home\\trainresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\views\\home\\trainresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\views\\admin\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\views\\admin\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\views\\home\\searchtrain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\views\\home\\searchtrain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\views\\home\\pnrresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\views\\home\\pnrresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\viewmodels\\searchtrainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\viewmodels\\searchtrainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\viewmodels\\addtrainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\viewmodels\\addtrainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\migrations\\20250511125053_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\migrations\\20250511125053_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\models\\fare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\models\\fare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\models\\pnr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\models\\pnr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\models\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\models\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|d:\\zzc#ibmtraining\\11thmay\\traininformationsystem\\traininformationsystem\\traininfosystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EDEC574F-04AD-48A4-A3F0-73BC02A04DF6}|TrainInformationSystem\\TrainInfoSystem.csproj|solutionrelative:traininformationsystem\\traininfosystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 209,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TrainResults.cshtml",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Home\\TrainResults.cshtml",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Views\\Home\\TrainResults.cshtml",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Home\\TrainResults.cshtml",
+              "RelativeToolTip": "TrainInformationSystem\\Views\\Home\\TrainResults.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwC0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T13:07:28.104Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Admin\\Admin.cshtml",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Views\\Admin\\Admin.cshtml",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Admin\\Admin.cshtml",
+              "RelativeToolTip": "TrainInformationSystem\\Views\\Admin\\Admin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T12:32:52.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConfirmedBookings.cshtml",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Admin\\ConfirmedBookings.cshtml",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Views\\Admin\\ConfirmedBookings.cshtml",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Admin\\ConfirmedBookings.cshtml",
+              "RelativeToolTip": "TrainInformationSystem\\Views\\Admin\\ConfirmedBookings.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T12:33:21.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PNRResult.cshtml",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Home\\PNRResult.cshtml",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Views\\Home\\PNRResult.cshtml",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Home\\PNRResult.cshtml",
+              "RelativeToolTip": "TrainInformationSystem\\Views\\Home\\PNRResult.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T12:34:47.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddTrain.cshtml",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Admin\\AddTrain.cshtml",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Views\\Admin\\AddTrain.cshtml",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Admin\\AddTrain.cshtml",
+              "RelativeToolTip": "TrainInformationSystem\\Views\\Admin\\AddTrain.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvzMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T12:32:19.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PendingBookings.cshtml",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Admin\\PendingBookings.cshtml",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Views\\Admin\\PendingBookings.cshtml",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Admin\\PendingBookings.cshtml",
+              "RelativeToolTip": "TrainInformationSystem\\Views\\Admin\\PendingBookings.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T12:33:43.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PNRStatus.cshtml",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Home\\PNRStatus.cshtml",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Views\\Home\\PNRStatus.cshtml",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Home\\PNRStatus.cshtml",
+              "RelativeToolTip": "TrainInformationSystem\\Views\\Home\\PNRStatus.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwCkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T12:35:09.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TrainInformationSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:39:20.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "TrainInformationSystem\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAEABAAAAAAAAAADwv0sBAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:15:24.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SearchTrain.cshtml",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Home\\SearchTrain.cshtml",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Views\\Home\\SearchTrain.cshtml",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Home\\SearchTrain.cshtml",
+              "RelativeToolTip": "TrainInformationSystem\\Views\\Home\\SearchTrain.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T12:35:28.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SearchTrainViewModel.cs",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\ViewModels\\SearchTrainViewModel.cs",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\ViewModels\\SearchTrainViewModel.cs",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\ViewModels\\SearchTrainViewModel.cs",
+              "RelativeToolTip": "TrainInformationSystem\\ViewModels\\SearchTrainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:20:34.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "TrainInformationSystem\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T12:44:08.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddTrainViewModel.cs",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\ViewModels\\AddTrainViewModel.cs",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\ViewModels\\AddTrainViewModel.cs",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\ViewModels\\AddTrainViewModel.cs",
+              "RelativeToolTip": "TrainInformationSystem\\ViewModels\\AddTrainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:20:18.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "TrainInformationSystem\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T13:15:05.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "TrainInformationSystem\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T13:15:03.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "TrainInformationSystem\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T13:14:58.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TrainInformationSystem\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:18:55.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250511125053_initial.cs",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Migrations\\20250511125053_initial.cs",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Migrations\\20250511125053_initial.cs",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Migrations\\20250511125053_initial.cs",
+              "RelativeToolTip": "TrainInformationSystem\\Migrations\\20250511125053_initial.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:50:53.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TrainInformationSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T12:41:20.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TrainInformationSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T12:47:21.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Models\\Booking.cs",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Models\\Booking.cs",
+              "RelativeToolTip": "TrainInformationSystem\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:16:11.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Class.cs",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Models\\Class.cs",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Models\\Class.cs",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Models\\Class.cs",
+              "RelativeToolTip": "TrainInformationSystem\\Models\\Class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:16:36.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "TrainInformationSystem\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:46:35.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Fare.cs",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Models\\Fare.cs",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Models\\Fare.cs",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Models\\Fare.cs",
+              "RelativeToolTip": "TrainInformationSystem\\Models\\Fare.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:16:48.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PNR.cs",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Models\\PNR.cs",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Models\\PNR.cs",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Models\\PNR.cs",
+              "RelativeToolTip": "TrainInformationSystem\\Models\\PNR.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:17:12.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Train.cs",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Models\\Train.cs",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Models\\Train.cs",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Models\\Train.cs",
+              "RelativeToolTip": "TrainInformationSystem\\Models\\Train.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:17:27.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Program.cs",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\Program.cs",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\Program.cs",
+              "RelativeToolTip": "TrainInformationSystem\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:21:59.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\appsettings.json",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\appsettings.json",
+              "RelativeToolTip": "TrainInformationSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-11T12:42:19.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TrainInfoSystem.csproj",
+              "DocumentMoniker": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\TrainInfoSystem.csproj",
+              "RelativeDocumentMoniker": "TrainInformationSystem\\TrainInfoSystem.csproj",
+              "ToolTip": "D:\\zzC#ibmTraining\\11thMay\\TrainInformationSystem\\TrainInformationSystem\\TrainInfoSystem.csproj",
+              "RelativeToolTip": "TrainInformationSystem\\TrainInfoSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-11T12:19:46.063Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

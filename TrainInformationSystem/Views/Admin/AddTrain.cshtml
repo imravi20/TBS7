@@ -1,0 +1,59 @@
+﻿@model TrainInfoSystem.ViewModels.AddTrainViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Add Train";
+}
+
+<h2>Add New Train</h2>
+
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+<form method="post" class="form-group">
+    <div class="form-group">
+        <label asp-for="TrainNumber">Train Number</label>
+        <input class="form-control" asp-for="TrainNumber" required />
+        <span asp-validation-for="TrainNumber" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TrainName">Train Name</label>
+        <input class="form-control" asp-for="TrainName" required />
+        <span asp-validation-for="TrainName" class="text-danger"></span>
+    </div>
+
+    <h4>Select Classes</h4>
+    @for (int i = 0; i < Model.Classes.Count; i++)
+    {
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" asp-for="Classes[i].IsSelected" />
+            <label class="form-check-label" asp-for="Classes[i].IsSelected">@Model.Classes[i].ClassName</label>
+
+            <div class="form-group">
+                <label asp-for="Classes[i].FareAmount">Fare Amount</label>
+                <input class="form-control" asp-for="Classes[i].FareAmount" />
+                <span asp-validation-for="Classes[i].FareAmount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Classes[i].TotalSeats">Total Seats</label>
+                <input class="form-control" asp-for="Classes[i].TotalSeats" />
+                <span asp-validation-for="Classes[i].TotalSeats" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="Classes[i].ClassId" />
+            <input type="hidden" asp-for="Classes[i].ClassName" />
+        </div>
+    }
+
+    <button class="btn btn-primary mt-2" type="submit">Add Train</button>
+    <div class="mt-4">
+        <a href="@Url.Action("Index", "Admin")" class="btn btn-primary btn-lg">
+            Admin Home Page
+        </a>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

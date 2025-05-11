@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "User";
+}
+
+<div class="container text-center mt-5">
+    <h2>Welcome to the Train Information System</h2>
+
+    <!-- Option 1: Search Train -->
+    <div class="mt-4">
+        <a href="@Url.Action("SearchTrain", "Home")" class="btn btn-primary btn-lg">
+            Search Train
+        </a>
+    </div>
+
+    <!-- Option 2: Check PNR -->
+    <div class="mt-4">
+        <a href="@Url.Action("PNRStatus", "Home")" class="btn btn-secondary btn-lg">
+            Check PNR
+        </a>
+    </div>
+</div>

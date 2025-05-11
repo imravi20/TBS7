@@ -1,0 +1,56 @@
+﻿@model TrainInfoSystem.ViewModels.SearchTrainViewModel
+@{
+    ViewData["Title"] = "Search Train";
+}
+
+<h2>Search for Trains</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<!-- Table displaying all trains -->
+<h4>Available Trains</h4>
+@if (Model.Trains == null || !Model.Trains.Any())
+{
+    <div class="alert alert-info">No trains available.</div>
+}
+else
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Train Name</th>
+                <th>Train Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var train in Model.Trains)
+            {
+                <tr>
+                    <td>@train.TrainName</td>
+                    <td>@train.TrainNumber</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<!-- Search form -->
+<form method="post" asp-action="SearchTrain">
+    <div class="form-group">
+        <label for="query">Enter Train Name or Number:</label>
+        <input type="text" class="form-control" id="query" name="query" required />
+        <small class="form-text text-muted">Refer to the table above to enter the train name or number.</small>
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

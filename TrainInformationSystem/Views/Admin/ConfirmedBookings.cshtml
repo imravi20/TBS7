@@ -1,0 +1,69 @@
+﻿@using TrainInfoSystem.Models
+@model List<Booking>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Confirmed Bookings";
+}
+
+<div class="container text-center mt-5">
+    <h3>Confirmed Bookings</h3>
+
+    @if (Model == null || !Model.Any())
+    {
+        <div class="alert alert-info">
+            No bookings found.
+        </div>
+    }
+    else if (!Model.Any(b => b.PNR != null && b.PNR.Status == "Confirmed"))
+    {
+        <div class="alert alert-info">
+            No confirmed bookings found.
+        </div>
+    }
+    else
+    {
+        @foreach (var booking in Model)
+        {
+            if (booking.PNR != null && booking.PNR.Status == "Confirmed" && booking.Train != null)
+            {
+                <p class="alert alert-primary">
+                    @booking.PassengerName | Train: @booking.Train.TrainName | PNR: @booking.PNR.PNRNumber
+                </p>
+            }
+        }
+    }
+
+    <!-- Debugging Section: Show all bookings for troubleshooting -->
+    @if (Model != null && Model.Any())
+    {
+        <h4>Debug: All Bookings</h4>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Passenger Name</th>
+                    <th>Train</th>
+                    <th>PNR Number</th>
+                    <th>PNR Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var booking in Model)
+                {
+                    <tr>
+                        <td>@booking.PassengerName</td>
+                        <td>@(booking.Train != null ? booking.Train.TrainName : "No Train")</td>
+                        <td>@(booking.PNR != null ? booking.PNR.PNRNumber : "No PNR")</td>
+                        <td>@(booking.PNR != null ? booking.PNR.Status : "No PNR")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+</div>
+
+<div class="mt-4">
+    <a href="@Url.Action("Index", "Admin")" class="btn btn-primary btn-lg">
+        Admin Home Page
+    </a>
+</div>

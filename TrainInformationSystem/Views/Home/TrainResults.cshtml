@@ -1,0 +1,52 @@
+﻿@model List<TrainInfoSystem.Models.Train>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Train Results";
+    var fares = ViewBag.Fares as List<TrainInfoSystem.Models.Fare>;
+    var query = ViewBag.Query as string;
+}
+
+<h3>Train Results</h3>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+@foreach (var train in Model)
+{
+    <div class="card mb-3">
+        <div class="card-body">
+            <h4 class="card-title">@train.TrainName (@train.TrainNumber)</h4>
+            <ul class="list-group">
+                @foreach (var fare in fares.Where(f => f.TrainId == train.TrainId))
+                {
+                    <li class="list-group-item">
+                        Class: @fare.Class.ClassName | Fare: ₹@fare.FareAmount | Available Seats: @fare.AvailableSeats
+                        <form method="post" asp-action="BookTicket" class="mt-2 row g-2">
+                            <input type="hidden" name="trainId" value="@train.TrainId" />
+                            <input type="hidden" name="classId" value="@fare.ClassId" />
+                            <input type="hidden" name="query" value="@query" />
+                            <div class="col-md-4">
+                                <input class="form-control" type="text" name="passengerName" placeholder="Your Name" required />
+                            </div>
+                            <div class="col-md-4">
+                                <input class="form-control" type="email" name="email" placeholder="Your Email" required />
+                            </div>
+                            <div class="col-md-4">
+                                <input class="form-control" type="date" name="journeyDate" required />
+                            </div>
+                            <div class="col-md-4">
+                                <button class="btn btn-success" type="submit">Book</button>
+                            </div>
+                        </form>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+}

@@ -1,0 +1,49 @@
+﻿ @model TrainInfoSystem.Models.PNR
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "PNR Status";
+}
+
+
+<h2>PNR Status</h2>
+
+@if (Model == null && ViewData["PNRNotFound"] == null)
+{
+    <!-- Show the input form only when no PNR has been submitted -->
+    <form method="post" asp-action="PNRStatus">
+        <div class="form-group">
+            <label for="pnr">Enter PNR Number:</label>
+            <input type="text" class="form-control" id="pnr" name="pnr" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Check Status</button>
+    </form>
+}
+else
+{
+    <!-- Show PNR status or not found message -->
+    @if (Model != null)
+    {
+        <div class="alert alert-info mt-3">
+            <h4>PNR: @Model.PNRNumber</h4>
+            <p>Train: @Model.Booking.Train.TrainName</p>
+            <p>Coach: @Model.Coach</p>
+            <p>Berth No: @Model.BerthNumber</p>
+            <p>Seat No: @Model.SeatNo</p>
+            <p>Status: @Model.Status</p>
+        </div>
+    }
+    else if (ViewData["PNRNotFound"] != null)
+    {
+        <div class="alert alert-warning mt-3">PNR Not Found</div>
+    }
+
+    <div class="mt-4">
+        <a href="@Url.Action("Index", "Home")" class="btn btn-primary btn-lg">
+            Home
+        </a>
+    </div>
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

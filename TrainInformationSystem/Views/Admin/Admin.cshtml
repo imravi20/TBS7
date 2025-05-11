@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Admin";
+}
+
+<div class="container text-center mt-5">
+    <h2>Welcome to the Train Information System-Admin</h2>
+
+    <!-- Option 1: Search Train -->
+    <div class="mt-4">
+        <a href="@Url.Action("AddTrain", "Admin")" class="btn btn-primary btn-lg">
+            Add Train
+        </a>
+    </div>
+
+    <!-- Option 2: Check PendingBookings -->
+    <div class="mt-4">
+        <a href="@Url.Action("PendingBookings", "Admin")" class="btn btn-warning btn-lg">
+            Pending Bookings
+        </a>
+    </div>
+
+    <!-- Option 3: Check ConfirmedBookings -->
+    <div class="mt-4">
+        <a href="@Url.Action("ConfirmedBookings", "Admin")" class="btn btn-success btn-lg">
+            Confirmed Bookings
+        </a>
+    </div>
+</div>

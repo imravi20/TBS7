@@ -1,0 +1,60 @@
+﻿@model List<TrainInfoSystem.Models.Booking>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Pending Bookings";
+}
+<div class="container text-center mt-5">
+    <h3>Pending Bookings</h3>
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">No pending bookings found.</div>
+    }
+    @foreach (var booking in Model)
+    {
+        <div class="card mb-2">
+            <div class="card-body">
+                <p>@booking.PassengerName - @booking.Train.TrainName, @booking.Class.ClassName</p>
+                <form method="post" asp-action="ConfirmBooking" class="row g-2">
+                    <input type="hidden" name="bookingId" value="@booking.BookingId" />
+                    <div class="col-md-3">
+                        <select class="form-control" name="coach" required>
+                            <option value="">Select Coach</option>
+                            <option value="C1">C1</option>
+                            <option value="C2">C2</option>
+                            <option value="C3">C3</option>
+                            <option value="C4">C4</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <select class="form-control" name="berth" required>
+                            <option value="">Select Berth</option>
+                            <option value="Lower">Lower</option>
+                            <option value="Middle">Middle</option>
+                            <option value="Upper">Upper</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <input class="form-control" type="text" name="seatNo" placeholder="Seat Number (e.g., 12A)" required />
+                    </div>
+                    <div class="col-md-3">
+                        <button class="btn btn-success" type="submit">Confirm</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    }
+</div>
+
+<div class="mt-4">
+    <a href="@Url.Action("Index", "Admin")" class="btn btn-primary btn-lg">
+        Admin Home Page
+    </a>
+</div>
