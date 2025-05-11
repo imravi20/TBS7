@@ -176,3 +176,4 @@ D:\zzC#ibmTraining\11thMay\TrainInformationSystem\TrainInformationSystem\obj\Deb
 D:\zzC#ibmTraining\11thMay\TrainInformationSystem\TrainInformationSystem\obj\Debug\net8.0\TrainInfoSystem.pdb
 D:\zzC#ibmTraining\11thMay\TrainInformationSystem\TrainInformationSystem\obj\Debug\net8.0\TrainInfoSystem.genruntimeconfig.cache
 D:\zzC#ibmTraining\11thMay\TrainInformationSystem\TrainInformationSystem\obj\Debug\net8.0\ref\TrainInfoSystem.dll
+D:\zzC#ibmTraining\11thMay\TrainInformationSystem\TrainInformationSystem\obj\Debug\net8.0\TrainInfoSystem.sourcelink.json
